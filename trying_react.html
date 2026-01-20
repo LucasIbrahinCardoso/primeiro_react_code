@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <UTF-8>
+    <meta charset="UTF-8">
     <head>
-        <title>React External Library</title>
+        <title>Vida do moço</title>
         <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     </head>
-    <body>
+    <body style="margin: 20px; display: flex; justify-content: center;">
         <div id="root"></div>
 
         <script type="text/babel">
             function App() {
                 return (
                     <div>
-                        <h1>História curta de Lucas, também conhecido como:</h1>
+                        <h1 style={{ textAlign: "center", fontFamily: "monospace"}}>História curta de Lucas, também conhecido como:</h1>
                         <br></br>
-                        <h2 style="color: purple, text-align: center">=---Ibrahin--=</h2>
-                        <br></br><br></br>
-                        <p>Não tenho muita memória da minha infância, mas sei que eu adorava brincar com meus primos - a maioria mais velhos - na casa da minha avó.
+                        
+                        <h2 style={{ textAlign: "center", fontFamily: "monospace" }}>
+                            =---Ibrahin--=
+                        </h2>
+
+                        <br />
+
+                        <p style={{ maxWidth: "900px", margin: "40px auto", lineHeight: "1.7", fontFamily: "serif" }}> Não tenho muita memória da minha infância, mas sei que eu adorava brincar com meus primos - a maioria mais velhos - na casa da minha avó.
                         Era sempre divertido, jogavamos truco desde que me consigo me lembrar, jogavamos futebol de diversas formas na área limitada da frente da casa
                         ou debaixo do pé de manga que existe até hoje lá. Não obstante, ao passarmos muitas tardes lá, era muito comum comermos algo simples no "café da tarde", como um pão com mortadela ou até um bolo de fubá que parecia ser a especialidade
-                        de uma das minhas tias<br></br>
+                        de uma das minhas tias.<br />
+                         Depois disso muita coisa mudou, eu percebi que curtia muito mais coisas mais "geeks" que as coisa de deles.<br />
+                         De qualquer forma, hoje sonho em escrever livros de histórias fantasiosas e, à princípio, codar como hobby... naturalizar essas coisas para que, quando forem necessárias, eu consiga fazer mais tranquilamente e com mais facilidade 
                         .</p>
                     </div>
                 );

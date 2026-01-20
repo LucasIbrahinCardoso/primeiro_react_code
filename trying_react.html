@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <UTF-8>
+    <head>
+        <title>React External Library</title>
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <script type="text/babel">
+            function App() {
+                return (
+                    <div>
+                        <h1>História curta de Lucas, também conhecido como:</h1>
+                        <br></br>
+                        <h2 style="color: purple, text-align: center">=---Ibrahin--=</h2>
+                        <br></br><br></br>
+                        <p>Não tenho muita memória da minha infância, mas sei que eu adorava brincar com meus primos - a maioria mais velhos - na casa da minha avó.
+                        Era sempre divertido, jogavamos truco desde que me consigo me lembrar, jogavamos futebol de diversas formas na área limitada da frente da casa
+                        ou debaixo do pé de manga que existe até hoje lá. Não obstante, ao passarmos muitas tardes lá, era muito comum comermos algo simples no "café da tarde", como um pão com mortadela ou até um bolo de fubá que parecia ser a especialidade
+                        de uma das minhas tias<br></br>
+                        .</p>
+                    </div>
+                );
+            }
+
+            const container = document.getElementById('root');
+            const root = ReactDOM.createRoot(container);
+            root.render(<App />);
+        </script>
+    </body>
+</html>

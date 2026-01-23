@@ -1,20 +1,17 @@
-import Header from './Header'
-import Header3 from './Header3'
-import Paragraph from './Paragraph'
 import Image from './Image_Code'
 
 function App() {
   return(
-    <>
-      <Header />
-      <Header3 />
+    <div>
+      <h1>Título Criativo</h1>
+      <h3>Prazer, sou Lucas.</h3>
       <br />
-      <Paragraph />
+      <p>Giuseph é legal.</p>
       <br /><br /><br />
       <p>Não vou escrever histórinha da minha vida dessa vez...</p>
       <br /><br /><br />
       <Image />
-    </>
+    </div>
   )
 }
 
